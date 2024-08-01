@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class time{
+public class romeo{
     public static void main(String[] args){
         int x,y,z,a;
         Scanner read=new Scanner(System.in);
