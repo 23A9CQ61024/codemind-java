@@ -1,11 +1,9 @@
 import java.util.Scanner;
-public class Add{
-    public static void main(String[] args)
-    {
-        int a,n;
-        Scanner read=new Scanner(System.in);
+public class Sum{
+    public static void main(String[] args){
+        Scanner read = new Scanner(System.in);
+        int n;
         n=read.nextInt();
-        a=n*(n+1)/2;
-        System.out.println(a);
-}
+        System.out.println(n*(n+1)/2);
+    }
 }
